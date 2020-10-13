@@ -6,7 +6,16 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int num = 16, resto;
+            string binario = "";
+            while (num > 0)
+            {
+                resto = num % 2;
+                num  /= 2;
+                binario = Convert.ToString(resto) + binario;
+            }
+            Console.WriteLine($"il numero binario è:{binario}");
+            Console.ReadLine();
         }
     }
 }
