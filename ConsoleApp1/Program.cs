@@ -9,7 +9,7 @@ namespace trasformatore_da_decimale_a_binario
             int num, resto, divisore;
             Console.WriteLine("inserisci il numero decimale:");
             num = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("inserisci il valore con cui vuoi dividere:");
+            Console.WriteLine("inserisci il valore con cui vuoi dividere(2 o 8):");
             divisore = Convert.ToInt32(Console.ReadLine());
             string binario = "";
             while (num > 0)
